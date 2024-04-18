@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-item a:hover {
+    color: #ffc107;
+  }
+  
+  /* Estilos para el carrito */
+  .cart-widget {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ffc107;
+    color: #333;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
